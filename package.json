@@ -1,7 +1,7 @@
 {
-  "name": "unocss-preset-lj",
-  "version": "0.1.0",
-  "description": "lj-reset for UnoCSS",
+  "name": "@ljtool/unocss-preset",
+  "version": "0.0.1",
+  "description": "reset for UnoCSS",
   "author": "linjielinlin <993353454@qq.com>",
   "engines": {
     "node": ">=16"
@@ -35,8 +35,11 @@
     "url": "git+https://github.com/ljtool/unocss-preset-lj.git"
   },
   "keywords": [
+    "linjielinlin",
+    "@ljtool",
+    "@ljtool/unocss-preset",
     "unocss",
-    "unocss-preset-lj"
+    "unocss-preset"
   ],
   "license": "Apache-2.0",
   "bugs": {
