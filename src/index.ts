@@ -19,7 +19,7 @@ function presetLj(options: IOption = {}): Preset {
   }
 }
 const getFnRuleList = (options: IOption = {}) => {
-  const { unit = '${unit}' } = options
+  const { unit = 'px' } = options
   const res: Rule[] = []
   // 文字溢出隐藏
   res.push([
