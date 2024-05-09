@@ -1,0 +1,47 @@
+{
+  "name": "unocss-preset-lj",
+  "version": "0.1.0",
+  "description": "lj-reset for UnoCSS",
+  "author": "linjielinlin <993353454@qq.com>",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "tsc": "tsc",
+    "build": "vite build && tsc",
+    "build-demo": "vite build --mode demo",
+    "test": "vitest",
+    "test:update": "vitest -u",
+    "release": ""
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^4.9.5",
+    "unocss": "^0.60.0",
+    "vite": "^5.2.11",
+    "vitest": "^0.29.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljtool/unocss-preset-lj.git"
+  },
+  "keywords": [
+    "unocss",
+    "unocss-preset-lj"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ljtool/unocss-preset-lj/issues"
+  },
+  "homepage": "https://github.com/ljtool/unocss-preset-lj",
+  "dependencies": {}
+}
