@@ -1,6 +1,6 @@
 {
   "name": "@ljtool/unocss-preset",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "reset for UnoCSS",
   "author": "linjielinlin <993353454@qq.com>",
   "engines": {
