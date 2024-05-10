@@ -1,13 +1,10 @@
 # @ljtool/unocss-preset
 
-<p>
-  <a href="https://www.npmjs.com/package/@ljtool/unocss-preset" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/npm/v/@ljtool/unocss-preset" alt="npm version">
-  </a>
-  <a href="https://nodejs.org/en/about/releases/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/node/v/@ljtool/unocss-preset" alt="node version">
-  </a>
-</p>
+[![npm](https://img.shields.io/npm/v/@ljtool/unocss-preset)](https://www.npmjs.com/package/@ljtool/unocss-preset)
+[![node](https://img.shields.io/node/v/@ljtool/unocss-preset)](https://nodejs.org/en/about/releases/)
+[![license](https://img.shields.io/github/license/ljtool/unocss-preset-lj?style=flat-square)](https://en.wikipedia.org/wiki/Apache_License#Version_2.0)
+[![stars](https://img.shields.io/github/stars/ljtool/unocss-preset-lj?style=flat-square&logo=GitHub)](https://github.com/ljtool/unocss-preset-lj)
+[![release](https://img.shields.io/github/v/release/ljtool/unocss-preset-lj?style=flat-square)](https://github.com/ljtool/unocss-preset-lj/releases)
 
 > preset for UnoCSS
 
