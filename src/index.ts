@@ -53,7 +53,7 @@ const getFnRuleList = (options: IOption = {}) => {
     ],
     // text color
     [
-      /^c-[\d|abcdef]{6,8})$/,
+      /^c-([\d|abcdef]{6,8})$/,
       ([_, v], { rawSelector }) => {
         return `${e(rawSelector)}{color:#${v}}`
       },
