@@ -8,12 +8,16 @@
 
 > preset for UnoCSS
 
+## Features
+
+- [ ] add document website
+
 ## Installation
 
 ```sh
-npm i @ljtool/unocss-preset unocss --save-dev # with npm
-yarn add @ljtool/unocss-preset unocss -D # with yarn
-pnpm add @ljtool/unocss-preset unocss -D # with pnpm
+npm i @ljtool/unocss-preset unocss --save-dev
+yarn add @ljtool/unocss-preset unocss -D
+pnpm add @ljtool/unocss-preset unocss -D
 ```
 
 ## Usage

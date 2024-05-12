@@ -44,7 +44,7 @@ const getFnRuleList = (options: IOption = {}) => {
     ],
     // text color short,eg: c-3 {color: #333333;}
     [
-      /^c-([\d|abcdef]{1,3})$/,
+      /^c-([\d|abcdefABCDEF]{1,3})$/,
       ([_, num], { rawSelector }) => {
         let count = 1
         count = 6 / num.length
@@ -53,14 +53,14 @@ const getFnRuleList = (options: IOption = {}) => {
     ],
     // text color
     [
-      /^c-([\d|abcdef]{6,8})$/,
+      /^c-([\d|abcdefABCDEF]{6,8})$/,
       ([_, v], { rawSelector }) => {
         return `${e(rawSelector)}{color:#${v}}`
       },
     ],
     // background color,eg: bg-3 {background-color: #333333;}
     [
-      /^bg-([\d|abcdef]{1,3})$/,
+      /^bg-([\d|abcdefABCDEF]{1,3})$/,
       ([_, num], { rawSelector }) => {
         let count = 1
         count = 6 / num.length
@@ -69,7 +69,7 @@ const getFnRuleList = (options: IOption = {}) => {
     ],
     // background color
     [
-      /^bg-([\d|abcdef]{6,8})$/,
+      /^bg-([\d|abcdefABCDEF]{6,8})$/,
       ([_, v], { rawSelector }) => {
         return `${e(rawSelector)}{background-color:#${v}}`
       },
@@ -102,7 +102,7 @@ const getFnRuleList = (options: IOption = {}) => {
     ],
     // rotate
     [
-      /^rot-([\d]+)$/,
+      /^rot-([-]{0,1}[\d]+)$/,
       ([_, num], { rawSelector }) => {
         const selector = e(rawSelector)
         return `${selector}{transform:rotate(${num}deg)}`
@@ -113,7 +113,7 @@ const getFnRuleList = (options: IOption = {}) => {
   if (options.type === 'weapp') {
     // margin padding
     res.push([
-      /^(p|m)-{0,1}([xylrtb]{0,1})-{0,1}([\d]+)$/,
+      /^(p|m)-{0,1}([xylrtb]{0,1})-([-]{0,1}[\d]+)$/,
       ([_, key, type, num], { rawSelector }) => {
         const selector = e(rawSelector)
         const keyObj = {
